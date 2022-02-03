@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/favicon/Doom_logo.png" type="image/x-icon">
+    <title>D O O M</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos/estilos.css">
+    <script src="javascript/javascript.js"></script>
+</head>
+<body class="body">
+    
+    <div id="wrapper" class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-naranja">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img id="logo" src="./imagenes/Doom_logo.png" alt="IconoDoom">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#hero">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#introduction">Introuction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#History">History</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#TemporalLine">Temporal Line</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Autor</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="hero">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./imagenes/slider/slider1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <img src="./imagenes/slider/Doom_logo.png" class="d-block w-15 mx-auto rounded" alt="...">
+                        </div>
+                    </div> 
+                    <div class="carousel-item">
+                        <img src="./imagenes/slider/slider2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagenes/slider/slider3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section id="introduction" class="bg-introduction">
+            <br>
+            <h1 class="text-center amarillo">Introduccion</h1>
+            <div class="row text-color p-3">
+                <div class="col-sm-12 mx-auto col-md-6  shadow p-3 mb-5 bg-gridIntroduction rounded text-justify">
+                    <p>
+                        Doom (oficialmente escrito DOOM, y ocasionalmente DooM por los fans, basado en el estilo de las letras del logo de Doom)  es un videojuego FPS (First Person Shooter o disparos en primera persona) creado por Id Software en 1993. El Doom original funcionaba bajo el sistema operativo DOS.
+                    </p>
+                    <p>
+                        Desde su debut, se han vendido más de 10 millones de copias de videojuegos de la serie Doom. Desde el lanzamiento de Doom en 1993, la serie ha generado numerosas secuelas, paquetes de expansión y 2 películas, además de miles de mods creados por la comunidad de fans.
+                    </p>
+                    <p>
+                        El juego consiste en personificar a un marine espacial que se encuentra de rutina en una estación en Phobos , una de las lunas de Marte . En un segundo, las puertas del Infierno quedan abiertas, dejando libres a un sinnúmero de demonios, espíritus inmundos, zombis, que infestan la base en cuestión de horas. Eres el único ser humano superviviente en la estación y tu misión es ir logrando pasar con vida de nivel en nivel 
+                    </p>
+                    <img src="./imagenes/introduction/DoomIntroductionGif.gif" class=" mt-2 w-75 mx-auto d-block" alt="...">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <img src="./imagenes/introduction/Doom_cover.png" class=" w-75 mx-auto d-block" alt="...">
+                    <br>
+                    <div class="mt-2 shadow p-3 mb-5 bg-gridIntroduction rounded text-justify">
+                        <p>Desarrollado por : id Software </p>
+                        <p>Publicado por : id Software, GT Interactive, Activision </p>
+                        <p>Lanzamiento : 10 de diciembre de 1993</p>
+                        <p>Plataforma/s : DOS, Mac, Linux, Windows, Atari Jaguar, PlayStation, SNES, Sega32X, Sega Saturn, Xbox, Xbox 360 </p>
+                        <p>Motor: id Tech 1 </p>
+                        <p>Género : FPS </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="History">
+            <h1 class="text-center amarillo">Historia</h1>
+            <br>
+            <div  class="shadow p-3 mb-5 bg-History rounded text-color" >
+                <div>
+                    <div class="row text-color p-2">
+                        <div class="col-sm-12 mx-auto col-md-6">
+                            <img src="./imagenes/history/marine-doom-centinelas.jfif" class="w-100 d-block">
+                        </div>
+                        <div class="col-sm-12 mx-auto col-md-6 text-justify">
+                            <p>
+                                Eres un marine, de los más fuertes y entrenados de la Tierra, experimentado en combate y listo para la acción. Hace 3 años golpeaste a un oficial superior por ordenar a sus soldados que dispararan contra un grupo de manifestantes civiles. Considerándote como peligroso, decidieron trasladarte a la base en Marte, sector espacial de la UAC (Union Aerospace Corporation). 
+                            </p>
+                            
+                                <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header bg-modal">
+                                        <h5 class="modal-title" id="exampleModalToggleLabel">Historia</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-modal">
+                                            <p>
+                                                La UAC es un conglomerado multi-planetario con instalaciones de investigación y desechos radioactivos en el planeta Marte y sus dos lunas, Phobos y Deimos. Tus primeros días los pasaste sentado en la sala de vigilancia, viendo videos restringidos y material ultrasecreto como si fuera TV por cable, no habiendo mucha acción allí.
+                                            </p>
+                                            <p>
+                                                Secretamente, la UAC, entre otras cosas, desarrollaba muchos proyectos militares en Marte y sus dos lunas. Una y la más problemática era la teletransportación interdimensional, pero hasta ahora solo se había podido abrir un teletransportador entre Phobos y Deimos. Se probó a lanzar artefactos por un lado y verlos salir por el otro, pero en algun momento se necesitó de humanos para experimentar. Voluntarios militares y científicos se ofrecieron... Pero al entrar por el portal comenzaron a suceder cosas desconcertantes: o entraban y simplemente no se rematerializaban en el teletransportador de destino, o regresaban muertos con extraños síntomas en el cuerpo (mordeduras, piel seca y quemada, algunos aparecían descuartizados), o algunos llegaban completamente al borde de una esquizofrenia psicótica, cual zombies de pelicula, masticando la mitad de sus dedos, o habiéndose tragado sus propios ojos, a la vez que otros pocos al cruzar por el teletransportador sufrían una explosión inexplicable de cuerpo completo.
+                                            </p>
+                                            
+                                        </div>
+                                        <div class="modal-footer bg-modal">
+                                        <button class="btn bg-naranja" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"><a>Siguiente.</a></button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content bg-modal">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalToggleLabel2">Historia</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-modal">
+                                            <p>
+                                                El trabajo de identificar partes de cuerpos que fueran compatibles unas con otras se había convertido en una labor de 24 horas. Aparte de dichos acontecimientos, la UAC anunciaba alguno que otro retraso, pero que lo demás iba bien.
+                                            </p>
+                                            <p>
+                                                Ya habiendo pasado algun tiempo, repentinemente Marte recibió un mensaje desde Phobos: <i>"¡Requerimos de soporte militar inmediato! ¡Algo terrible y monstruoso está saliendo por los portales! ¡Los sistemas no responden! Los sistemas computarizados se han vuelto locos!" El resto era simplemente incoherente.</i>
+                                            </p>
+                                            <p>
+                                                Poco después, Deimos simplemente se desvaneció del espacio. Desde ese momento, ha habido varios intentos de establecer conexión con alguna de las lunas, sin éxito. Como último recurso, tu y tus compañeros, son enviados a Phobos para ver que es lo que está pasando. Al llegar, tu primera orden es esperar en la entrada y asegurar el perímetro mientras los demás efectivos entraban a la base llevándose las armas de alto calibre. Por muchas horas, tu radio sólo recibe sonidos de combate: disparos, hombres gritando órdenes, gritos de auxilio, algo que podría identificarse como huesos y cartílagos quebrantándose, y por fin, el espectral silencio...
+                                            </p>
+                                            <p>
+                                                Tus compañeros están muertos. Te decides a entrar por la puerta de la base, algo no esta bien, al dar la vuelta te das cuenta de que lo que mató a tus compañeros merece más de 2 escopetazos a la cabeza...
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer bg-modal">
+                                        <button class="btn bg-naranja" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><a>Volver.</a></button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <a class="btn bg-naranja" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Leer más</a>
+                                <br>
+                        </div>
+                        
+                        <h2 class="text-center naranja p-5">Episodios</h2>
+                </div>
+                
+                <div class="accordion accordion-flush w-75 mx-auto " id="accordionFlushExample">
+                    <div class="accordion-item bg-AcordeonHistory text-color">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed bg-AcordeonHistory text-color" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Knee-Deep in the Dead
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body text-color">
+                                <p>
+                                    Knee-Deep in the Dead es el primer episodio de Doom / The Ultimate Doom y el único episodio en la versión shareware. El episodio tiene lugar en las instalaciones UAC de Phobos, una de las lunas de Marte.</p>
+
+                                <p>
+                                    Diseñado principalmente por John Romero, los niveles tienen un estilo gráfico único caracterizado por el uso extensivo de las texturas STAR, grandes cantidades de colores marrón y verde saturados, en general, y un brumoso horizonte de montañas.
+                                </p>
+                                <p>
+                                    Debido a su inclusión en la versión shareware de Doom, los estilos de niveles del episodio 1 se han convertido en uno de los temas más populares y fácilmente reconocibles de "diseño Doom". Los niveles hechos por fans que utilizan exclusivamente las texturas del Episodio 1, y muchas veces emulando el estilo de juego del Episodio 1, se conocen comúnmente como niveles Estilo E1 o TechBase.
+                                </p>
+                                <p>
+                                    Con sus compañeros marines muertos o poseídos, el protagonista debe luchar en su camino a través de los diferentes edificios de UAC, cada uno invadido por demonios y zombis. Finalmente, llega a la anomalía (el portal de entrada interdimensional entre Fobos y Deimos) y derrota a los poderosos barones que la custodian. Por desgracia, el único lugar para ir después es a través de la puerta de entrada a Deimos, que está aún más fuertemente controlada por las fuerzas del infierno .
+
+                                </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-AcordeonHistory text-color">
+                        <h2 class="accordion-header text-color" id="flush-headingTwo">
+                            <button class="accordion-button collapsed bg-AcordeonHistory text-color" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                The Shores of Hell
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body text-color">
+                                <p>
+                                    The Shores of Hell es el segundo episodio de Doom / The Ultimate Doom. Todos los mapas de este episodio fueron realizados por Sandy Petersen, aunque muchos de ellos fueron comenzados por Tom Hall. El episodio se desarrolla en Deimos, que está siendo invadido e infestado por las fuerzas demoníacas. Para mostrar esto, sus niveles generalmente se parecen a instalaciones UAC que han sido parcialmente alteradas por los invasores demoníacos. El cielo que se utiliza para el fondo se compone de montañas contra nubes rojas.
+                                </p>
+
+                                <p>
+                                    Los nombres de nivel sugieren que sólo cuatro edificios (niveles 2 a 5) son UAC incorporados, y que los otros son nuevos edificios infernales (a estrenar, en el caso de la Torre de Babel).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-AcordeonHistory text-color">
+                        <h2 class="accordion-header text-color" id="flush-headingThree">
+                            <button class="accordion-button collapsed bg-AcordeonHistory text-color" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Inferno
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body text-color">
+                                <p>
+                                    Inferno es el tercer episodio de Doom / The Ultimate Doom. Todos los niveles en este episodio se acreditan generalmente a Sandy Petersen, aunque Tom Hall comenzó originalmente dos de ellos.
+                                </p>
+                                <p>
+                                    Este episodio se desarrolla en el infierno, posiblemente la región interna del Infierno.
+                                </p>
+                                <p>
+                                    El nombre del episodio es al parecer una referencia a la obra de Dante Alighieri La Divina Comedia.
+                                </p>
+                                <p>
+                                    La mayoría de estos niveles tienen una habitación principal, centro que se puede identificar fácilmente, por lo general circular o cuadrada.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="TemporalLine">
+            <h1 class="text-center amarillo">Linea de Tiempo</h1>
+            <div class="row text-color p-3">
+                <div class="col-sm-12 mx-auto col-md-6  shadow p-3 mb-5 bg-gridIntroduction rounded text-justify">
+                    <p>
+                        2018 - El mayor proveedor militar, la Union Aerospace Corporation (UAC), ha utilizado las instalaciones remotas en Phobos y Deimos para llevar a cabo varios proyectos secretos, incluida la investigación sobre viajes espaciales interdimensionales.
+                    </p>
+                    <p>
+                        2019 - El protagonista golpea a un oficial superior y es transferido a Marte, hogar de la UAC.
+                    </p>
+                    <p>
+                        2021 - 1 de julio - Se publica DOOMNL 01-D19305-1C, el Manual de la Marina Espacial de los Estados
+                    </p>
+                    <p>
+                        2022 -<br>
+                        15 de marzo: Marte recibe un mensaje de la base de Phobos que indica que la base está bajo ataque y solicita respaldo.<br>
+                        Unas horas más tarde, los marines desembarcan e intentan detener la invasión. Se ordena al protagonista que se quede atrás y proteja el perímetro. Las fuerzas militares son aniquiladas o convertidas en monstruos. Las autoridades planetarias envían al Marine sobreviviente el nuevo DOOMNL 01-D19505-1D que reemplaza el manual anterior (ahora incluye información para el Marine e imágenes de la invasión tomadas por cámaras de video remotas. Los datos de video fueron analizados por computadora de la UAC y se proporcionan los resultados "aquí y solo aquí"). El marine abandona la cápsula de escape prometiendo derribar la mayor cantidad de fuerza de invasión posible antes de su muerte.<br>
+                    </p>
+                        <div class="modal fade" id="Modal2" aria-hidden="true" aria-labelledby="Modal2" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header bg-modal">
+                                <h5 class="modal-title" id="Modal2">Linea Temporal</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" data-bs-target="Modal2"></button>
+                                </div>
+                                <div class="modal-body bg-modal">
+                                    <p>
+                                        Knee Deep In the Dead comienza cuando el marine llega al atrio del Hangar.<br>
+                                        Knee Deep in the Dead termina cuando el Doom marine es emboscado por las fuerzas del Infierno al llegar a Deimos, y presumiblemente muere.<br>
+                                        Shores of Hell comienza cuando el Doom marine se encuentra vivo de alguna manera y enfrenta a las fuerzas del Infierno.<br>
+                                        Shores of Hell termina cuando Doom Marine desciende por la superficie de Deimos, descubriendo que ahora está orbitando sobre el Infierno.<br>
+                                        Inferno comienza cuando el Doom Marine llega a la superficie del Infierno.<br>
+                                        Inferno termina con el Doom Marine matando al Spider Mastermind, el general de las invasiones a Phobos y Deimos, y es 'recompensado' con una puerta de entrada a la Tierra, descubriendo así que la Tierra ha sido invadida y su mascota Daisy fue asesinada.<br>
+                                        Comienza Thy Flesh Consumed (una especie de intercuela insertada después de Shores of Hell y antes o durante Doom II). El Doom Marine continúa luchando en venganza por su mascota muerta Daisy, deteniendo la fuerza de invasión del Spiderdemon enviada a la tierra antes de llegar allí. Pero no puede evitar el infierno en la tierra.<br>
+                                        Mientras tanto, un marine detiene una invasión demoníaca en la base de Marte de UAC en el transcurso de unos días. Se le da permiso para regresar a la Tierra. Fue el único sobreviviente en Marte. Regresa a la tierra en una cápsula de caída solo para descubrir que ha sido invadida por los demonios del exterior.<br>
+                                        Comienza Doom II.<br>
+                                        Comienza Doom II: No Rest for the Living. El Doom Marine continúa sus batallas en la Tierra después de que las fuerzas del Infierno parecieran vencidas, y se ve obligado a viajar a un universo de bolsillo para detener otra amenaza demoníaca.<br>
+                                        La Union Aerospace Corporation ha sido completamente reformada, ya que los accionistas originales, los fideicomisarios y la administración fueron asesinados en la invasión de la Tierra, y comienzan a administrar dos proyectos: uno en una jungla desconocida y el otro en una de las lunas de Júpiter.<br>
+                                        TNT: Evilution comienza con el Doom Marine en la última base lunar sobreviviente de Júpiter, una vez más luchando contra las fuerzas del Infierno.<br>
+                                        TNT: Evilution termina con el Doom Marine destruyendo el Icono del pecado.<br>
+                                        Los Aceleradores Cuánticos tienen éxito en su primera prueba, pero fallan en su segunda activación, dejando una Puerta abierta para que las fuerzas del Infierno.<br>
+                                    </p>
+                                    <p>2023-<br>
+                                        La nave de suministro anual llega a la luna de Júpiter. Los demonios la usan para invadir la base UAC allí.<br>
+                                        Comienza The Plutonia Experiment cuando el Doom Marine lucha contra las fuerzas del Infierno nuevamente después de llegar en una camioneta.<br>
+                                        El Experimento Plutonia termina con el Doom Marine destruyendo al Icono del pecado, tragándose los demonios finales y el acelerador.<br>
+                                        El fatigado Doom Marine es dado de baja, y los episodios militares de DOOM se clasifican. Las bases de la UAC están selladas y en cuarentena por bombardeo radiactivo.<br>
+                                        <br>
+                                        Años después<br>
+                                        La Madre Demonio ha sobrevivido a la radiación de la instalación espacial bombardeada. Protegida de la radiación, resucitó a los demonios mutándolos en formas más fuertes y más contundentes.<br>
+                                        Doom 64 comienza. Se vuelve a encargar al Doom Marine para que la detenga y, en la última invasión, detiene a las fuerzas de la Madre Demonio que se habían estado construyendo en los antiguos campos de batalla que no pudo despejar.<br>
+                                        Doom 64 termina. El Doom Marine decide quedarse en el Infierno para evitar el surgimiento de otro demonio que tome el control después de destruir a la Madre Demonio.<br>
+                                    </p>
+                                </div>
+                                <div class="modal-footer bg-modal"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <a class="btn bg-naranja" data-bs-toggle="modal" href="#Modal2" role="button">Leer más</a>
+                    <img src="./imagenes/LineaTemporal/ArañaDoom.jpg" class=" mt-2 w-75 mx-auto d-block" alt="...">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <img src="./imagenes/LineaTemporal/DoomCover1.jpg" class=" w-75 mx-auto d-block" alt="...">
+                    <br>
+                    <div class="mt-2 shadow p-3 mb-5 bg-gridIntroduction rounded text-justify">
+                        <h2 class="text-center naranja">Curiosidades</h2>
+                        <p>
+                            1.- El tamaño original: <br> Llegó en el extinto formato disquete, más concretamente en la variable de 3½, que podía albergar en su interior hasta 1,44 MB de datos y necesitó de cuatro unidades para contener todos los archivos del juego. </p>
+                        <p>
+                            2.- ¿Y ese nombre? : <br> Traducido directamente desde el inglés, Doom significa condena o sentencia, un título que ya le va demasiado bien para ejemplificar la irrupción de los demonios y demás horrores a los que teníamos que enfrentarnos. Sin embargo, la inspiración original era el palo de billar de Tom Cruise en la película El Color del dinero (1986) de Martin Scorsese. </p>
+                        <div class="modal fade" id="Modal3" aria-hidden="true" aria-labelledby="Modal3" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header bg-modal">
+                                <h5 class="modal-title" id="Modal3">Curiosidades</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" data-bs-target="Modal3"></button>
+                                </div>
+                                <div class="modal-body bg-modal">
+                                    <p>
+                                        3.- El juego de Aliens que pudo ser y no fue : <br> En una entrevista con John Romero, este contó que originalmente estaba siendo diseñado como un juego de Aliens: El Regreso (James Cameron, 1986) a la espera de conseguir una licencia que nunca llegaron a obtener:
+                                        <br>
+                                        "Originalmente, queríamos hacer un juego basado en la licencia de Aliens y realmente estábamos en negociaciones para hacerlo, pero en el último minuto nos echamos para atrás porque queríamos tener el control creativo total y eso no iba a suceder con una propiedad licenciada. Así que John Carmack básicamente dijo: "¿Qué pasaría si hiciéramos lo mismo, excepto con infernales en lugar de Aliens?"3</p>
+                                    <p>
+                                        4.- ¡Que viva el metal! : <br>
+                                        Uno de los elementos más característicos de los dos primeros juegos de Doom, retomado en Doom (2016) es su banda sonora tan cañera. Entre las influencias de estos temas se encuentran bandas como Slayer, Metallica, Megadeth, Pantera, AC/DC, Alice in Chains y Black Sabbath. Muchos de los temas de Doom incluso son una reinterpretación de algunos conocidos temas.
+                                    </p>
+                                    <p>
+                                        5.- La influencia de Evil Dead: <br> Otras de las influencias cinematográficas más evidentes -y confesas- es la de Posesión Infernal, como la conocimos aquí en España. En este caso, es mucho más evidente pillar las referencias: una invasión demoníaca, la motosierra como arma jugable, etc. Para rematar, la icónica portada original está inspirada en la composición de la tercera parte de Evil Dead: El ejército de las tinieblas (1992), en la que el héroe está alzado sobre sus aberrantes amenazas. 
+                                    </p>
+                                    <p>
+                                        6.- Tan violento que inició la clasificación por edades : <br> La ultraviolencia de Doom siempre ha sido objeto de polémica desde sus inicios. Tan solo un año más tarde de ponerse a la venta, fue el principal causante de la implantación del sistema americano de clasificación por edades, el ESRB (Entertainment Software Rating Board).
+                                    </p>
+                                    <p>
+                                        7.- Acuño el término Deathmatch : <br> Deathmatch es el nombre que damos a una modalidad de los videojuegos multijugador consistente en eliminar a los contrincantes mediante las armas propias en un escenario cerrado preparado a tal efecto llamado arena. Según figura en el libro 'Masters of Doom: How Two Guys Created An Empire And Transformed Pop Culture' fue el propio John Romero el que pronunció este término por primera vez.
+            
+                                    </p>
+                                </div>
+                                <div class="modal-footer bg-modal"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <a class="btn bg-naranja" data-bs-toggle="modal" href="#Modal3" role="button">Más curiosidades.</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <h4 class="text-center naranja">Credits</h4>
+            <br>
+                <div class="mx-auto bg-footer">
+                    <div class="row mx-auto ">
+                        <div class="col-lg-3 col-sm-6 mx-auto p-3">
+                            <div class="card naranja bg-card mb-3 mx-auto w-100">
+                                <img src="./imagenes/footer/Me.jfif" class="img-fluid rounded p-1 d-block" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Jose Antonio Benitez</h5>
+                                <h6>Un poco sobre mi</h6>
+                                <p class="text-justify">
+                                    Hola, Yo soy Jose Antonio, tengo 18 años y estudio desarrollo de aplicaciones multiplataforma.Con motivo de un trabajo de clase he decido hacerlo sobre uno de mis juegos favoritos DOOM. No cuantas veces me lo habre pasado, pero en mi opinion si te gustan los FPS deberias probrar a jugarlo al menos 1 vez.
+                                </p>
+                                <p class="card-text">Aqui podras ir viendo los codigos que voy subiendo a lo largo de mi curso en DAM.</p>
+                                <a href="https://github.com/JoseAntonioBenitez" class="btn bg-botonfooter mx-auto p-1 text-color">Go to my GitHub</a>
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mx-auto p-3">
+                            <div class="card naranja bg-card mb-3 mx-auto w-100">
+                                <img src="./imagenes/footer/bethesda-redfall-trademark.jpg" class="img-fluid rounded p-1 d-block" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Bethesda</h5>
+                                <p class="card-text"></p>
+                                <br>
+                                <p>
+                                    Bethesda Softworks LLC es una empresa estadounidense dedicada a la distribución y desarrollo de videojuegos, filial de ZeniMax Media.<br><br>
+                                    Fue fundada en 1986 y actualmente tiene su sede en Rockville, Maryland. Es conocida por sus videojuegos de simulación deportiva, de acción y de rol. Algunos de sus trabajos más conocidos son los videojuegos de la serie The Elder Scrolls, además de otros como DOOM, Fallout 3 y The Terminator.
+                                </p>
+                                <a href="https://www.bethesda.net/es/dashboard/" class="btn bg-botonfooter mx-auto p-1 text-color">Go to Bethesda Web</a>
+                                </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

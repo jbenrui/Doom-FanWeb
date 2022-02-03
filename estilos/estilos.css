@@ -1,0 +1,34 @@
+/*general layaout*/
+.bg-naranja{ background-color: #d17b32 } 
+.amarillo{color: #f3cf61    } 
+.naranja{color:#e4972c  }
+.body{ background-color:#3b0c06} 
+.text-color{color: #dc882e  }
+.text-justify{text-align: justify;}
+.w-15{width: 15%;}
+.w-90{width: 90%;}
+@font-face{src:url('../fonts/EternalUiBold-DOGB1.ttf');
+    font-family:Title;
+    }
+@font-face{src:url('../fonts/EternalUiRegular-1Gap2.ttf');
+        font-family:paragraph;
+    }
+
+    h1,h2,h3,h4,h5,h6 {font-family:Title;}
+
+    p,a {font-family:paragraph;}
+/*nav style*/
+#logo {
+    width: 32px;
+}
+/*introduction style*/
+.bg-introduction{background-color: #3b0c06 }
+.bg-gridIntroduction{ background-color: rgba(255, 0, 0, 0.274);}
+/*Hystory style*/
+.bg-AcordeonHistory{background-color:#6d130b;}
+.bg-History{ background-color: rgba(255, 0, 0, 0.205);}
+.bg-modal{  background-color: #3b0c06;}
+/*Footer Style*/
+.bg-card{ background-color: #b54023 ;}
+.bg-footer{ background-color: rgba(255, 0, 0, 0.274);}
+.bg-botonfooter{  background-color: #951f10;}
