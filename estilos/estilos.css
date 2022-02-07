@@ -21,6 +21,9 @@
 #logo {
     width: 32px;
 }
+.navbar{
+    z-index: 1020;
+}
 /*introduction style*/
 .bg-introduction{background-color: #3b0c06 }
 .bg-gridIntroduction{ background-color: rgba(255, 0, 0, 0.274);}
